@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import com.FreeCRM.qa.Baseclass.TestBase;
 
 public class ContactsPage extends TestBase {
+	//Contacts page layer
 	@FindBy(xpath = "//td[contains(text(),'Contacts')]")
 	WebElement contactsLabel;
 	@FindBy(id="first_name")
