@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.FreeCRM.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="verifyUserNameTest"/>
+          <include name="tearDown"/>
+          <include name="clickOnContactsLink"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.FreeCRM.qa.TestCases.HomePageTest -->
+      <class name="com.FreeCRM.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="loginPageTitle"/>
+          <include name="loginPageCRMLogo"/>
+        </methods>
+      </class> <!-- com.FreeCRM.qa.TestCases.LoginPageTest -->
+      <class name="com.FreeCRM.qa.TestCases.ContactsPageTest">
+        <methods>
+          <include name="createNewContactTest"/>
+          <include name="selectContacts"/>
+          <include name="setUp"/>
+          <include name="selectMultipleContacts"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.FreeCRM.qa.TestCases.ContactsPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
