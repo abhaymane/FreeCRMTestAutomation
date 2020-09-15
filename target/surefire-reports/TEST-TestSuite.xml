@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="22" failures="3" name="TestSuite" time="2,218.251" errors="0" skipped="17">
+<testsuite tests="24" failures="3" name="TestSuite" time="2,810.899" errors="0" skipped="21">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="FreeCRMTestJob"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8081/job/FreeCRMTestJob/1/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8081/job/FreeCRMTestJob/4/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="C:\Users\TEMP\.jenkins"/>
-    <property name="PATH" value="C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221\bin;D:\JAVA PROGRAM\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jdk1.8.0_221\bin"/>
+    <property name="PATH" value="C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221\bin;D:\JAVA PROGRAM\apache-maven-3.6.3\bin;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.8.0_221\bin"/>
     <property name="HUDSON_SERVER_COOKIE" value="2340af0b1ff7588a"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMAutomation"/>
     <property name="os.name" value="Windows 7"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
     <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMAutomation"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="TEMP" value="C:\Windows\TEMP"/>
     <property name="java.runtime.version" value="1.8.0_221-b11"/>
@@ -24,11 +26,10 @@
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="PROMPT" value="$P$G"/>
-    <property name="=A:" value="A:\"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="FreeCRMTestJob"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8081/job/FreeCRMTestJob/1/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8081/job/FreeCRMTestJob/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
     <property name="java.version" value="1.8.0_221"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
@@ -37,7 +38,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="4"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -45,17 +46,16 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="maven.conf" value="D:\JAVA PROGRAM\apache-maven-3.6.3\conf"/>
     <property name="java.class.version" value="52.0"/>
-    <property name="=::" value="::\"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="user.country" value="US"/>
     <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="6.1"/>
-    <property name="=ExitCode" value="00000001"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8081/job/FreeCRMTestJob/1/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8081/job/FreeCRMTestJob/4/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Windows\TEMP"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8081/job/FreeCRMTestJob/1/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8081/job/FreeCRMTestJob/4/display/redirect?page=artifacts"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.221-b11"/>
     <property name="user.variant" value=""/>
@@ -68,11 +68,13 @@
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="COMPUTERNAME" value="ABHAY-PC"/>
     <property name="user.script" value=""/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="POM_GROUPID" value="FreeCRMTestAutomation"/>
     <property name="user.home" value="C:\Users\TEMP"/>
-    <property name="BUILD_TAG" value="jenkins-FreeCRMTestJob-1"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMTestJob-4"/>
     <property name="JENKINS_SERVER_COOKIE" value="2340af0b1ff7588a"/>
     <property name="HUDSON_URL" value="http://localhost:8081/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -81,12 +83,12 @@
     <property name="MAVAN_HOME" value="D:\JAVA PROGRAM\apache-maven-3.6.3"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\JAVA PROGRAM\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221\bin;D:\JAVA PROGRAM\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Java\jdk1.8.0_221\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\JAVA PROGRAM\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221\bin;D:\JAVA PROGRAM\apache-maven-3.6.3\bin;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Java\jdk1.8.0_221\bin;."/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="D:\JAVA PROGRAM\apache-maven-3.6.3"/>
     <property name="java.class.path" value="C:\Users\TEMP\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;D:\JAVA PROGRAM\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;D:\JAVA PROGRAM\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\JAVA PROGRAM\apache-maven-3.6.3 C:\Users\TEMP\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\TEMP\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\TEMP\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 53206"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\JAVA PROGRAM\apache-maven-3.6.3 C:\Users\TEMP\.jenkins\war\WEB-INF\lib\remoting-4.3.jar C:\Users\TEMP\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\TEMP\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 49224"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_221/bin"/>
@@ -100,7 +102,7 @@
     <property name="HUDSON_HOME" value="C:\Users\TEMP\.jenkins"/>
     <property name="PATH+MAVEN" value="D:\JAVA PROGRAM\apache-maven-3.6.3/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8081/job/FreeCRMTestJob/1/"/>
+    <property name="BUILD_URL" value="http://localhost:8081/job/FreeCRMTestJob/4/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -113,7 +115,7 @@
 "/>
     <property name="MAVEN_HOME" value="D:\JAVA PROGRAM\apache-maven-3.6.3"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1"/>
+    <property name="BUILD_NUMBER" value="4"/>
     <property name="JENKINS_URL" value="http://localhost:8081/"/>
     <property name="PROCESSOR_REVISION" value="3a09"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
@@ -123,27 +125,125 @@
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Users\TEMP\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
     <property name="WORKSPACE_TMP" value="C:\Users\TEMP\.jenkins\workspace\FreeCRMTestJob@tmp"/>
+    <property name="winpath" value="C:\Windows\System32;"/>
     <property name="WORKSPACE" value="C:\Users\TEMP\.jenkins\workspace\FreeCRMTestJob"/>
     <property name="maven3.interceptor.common" value="C:\Users\TEMP\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;D:\abhay\AutoIt3\AutoItX"/>
   </properties>
-  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="verifyContactsLabel" time="0.324"/>
-  <testcase classname="com.FreeCRM.qa.TestCases.HomePageTest" name="verifyHomePageTitleTest" time="0.018"/>
-  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="setUp" time="26.833">
-    <failure message="timeout: Timed out receiving message from renderer: 18.522
-  (Session info: chrome=84.0.4147.135)
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="setUp" time="42.532">
+    <failure message="timeout
+  (Session info: chrome=79.0.3945.79)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ABHAY-PC&apos;, ip: &apos;192.168.43.190&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Windows\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:53369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 25483e8fbc5f0232906f3ba85d0ab386" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 18.522
-  (Session info: chrome=84.0.4147.135)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Windows\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:49247}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3f53a32479b520bdb09189a336c1bb7" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=79.0.3945.79)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;ABHAY-PC&apos;, ip: &apos;192.168.43.190&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Windows\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:53369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 25483e8fbc5f0232906f3ba85d0ab386
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Windows\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:49247}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3f53a32479b520bdb09189a336c1bb7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.FreeCRM.qa.Baseclass.TestBase.inialization(TestBase.java:57)
+	at com.FreeCRM.qa.TestCases.ContactsPageTest.setUp(ContactsPageTest.java:26)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@21588809
+BeforeNavigateTo: https://www.crmpro.com/index.html&apos;
+</system-out>
+    <system-err>Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 19426
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Sep 15, 2020 12:15:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1600152326.544][SEVERE]: Timed out receiving message from renderer: 14.973
+[1600152326.570][SEVERE]: Timed out receiving message from renderer: -0.026
+</system-err>
+  </testcase>
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="verifyContactsLabel" time="42.536">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.FreeCRM.qa.TestCases.HomePageTest" name="setUp" time="75.591">
+    <failure message="timeout
+  (Session info: chrome=79.0.3945.79)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ABHAY-PC&apos;, ip: &apos;192.168.43.190&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Windows\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:49293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ff75d85d8d60fe9499207317bd52e87" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=79.0.3945.79)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ABHAY-PC&apos;, ip: &apos;192.168.43.190&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Windows\TEMP\scoped_dir7...}, goog:chromeOptions: {debuggerAddress: localhost:49293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ff75d85d8d60fe9499207317bd52e87
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy6.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at com.FreeCRM.qa.Baseclass.TestBase.inialization(TestBase.java:57)
+	at com.FreeCRM.qa.TestCases.HomePageTest.setUp(HomePageTest.java:26)
+</failure>
+    <system-out>BeforeNavigateTo: https://www.crmpro.com/index.html&apos;
+</system-out>
+    <system-err>Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 36053
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Sep 15, 2020 12:15:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1600152360.388][SEVERE]: Timed out receiving message from renderer: 18.001
+[1600152360.408][SEVERE]: Timed out receiving message from renderer: -0.032
+</system-err>
+  </testcase>
+  <testcase classname="com.FreeCRM.qa.TestCases.HomePageTest" name="verifyHomePageTitleTest" time="75.592">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="setUp" time="123.754">
+    <failure message="timeout
+  (Session info: chrome=79.0.3945.79)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ABHAY-PC&apos;, ip: &apos;192.168.43.190&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Windows\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:49345}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4bc6afed149d3238f4c66c7edfc8b853" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=79.0.3945.79)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ABHAY-PC&apos;, ip: &apos;192.168.43.190&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Windows\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:49345}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4bc6afed149d3238f4c66c7edfc8b853
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -167,183 +267,70 @@ Session ID: 25483e8fbc5f0232906f3ba85d0ab386
 </failure>
     <system-out>BeforeNavigateTo: https://www.crmpro.com/index.html&apos;
 </system-out>
-    <system-err>Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 20914
+    <system-err>Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 19592
 Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 22, 2020 7:44:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Sep 15, 2020 12:16:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1598105708.960][SEVERE]: Timed out receiving message from renderer: 18.522
-[1598105708.974][SEVERE]: Timed out receiving message from renderer: 18.522
+[1600152405.302][SEVERE]: Timed out receiving message from renderer: 17.135
+[1600152405.313][SEVERE]: Timed out receiving message from renderer: -0.012
 </system-err>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="loginPageTitle" time="26.849">
+  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="loginPageTitle" time="123.755">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="setUp" time="69.697">
-    <failure message="timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=84.0.4147.135)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ABHAY-PC&apos;, ip: &apos;192.168.43.190&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Windows\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:53408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a99ec945f892345ba8e6f32c4869acb6" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=84.0.4147.135)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ABHAY-PC&apos;, ip: &apos;192.168.43.190&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Windows\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:53408}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: a99ec945f892345ba8e6f32c4869acb6
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.FreeCRM.qa.Pages.LoginPage.login(LoginPage.java:39)
-	at com.FreeCRM.qa.TestCases.ContactsPageTest.setUp(ContactsPageTest.java:30)
-</failure>
-    <system-out>BeforeNavigateTo: https://www.crmpro.com/index.html&apos;
-AftrNavigateTo: https://www.crmpro.com/index.html&apos;
-Value of the: [[ChromeDriver: chrome on WINDOWS (a99ec945f892345ba8e6f32c4869acb6)] -&gt; name: username]before any changes mode
-Element value changed to :[[ChromeDriver: chrome on WINDOWS (a99ec945f892345ba8e6f32c4869acb6)] -&gt; name: username]
-Value of the: [[ChromeDriver: chrome on WINDOWS (a99ec945f892345ba8e6f32c4869acb6)] -&gt; name: password]before any changes mode
-Element value changed to :[[ChromeDriver: chrome on WINDOWS (a99ec945f892345ba8e6f32c4869acb6)] -&gt; name: password]
-</system-out>
-    <system-err>Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 37400
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 22, 2020 7:45:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1598105751.419][SEVERE]: Timed out receiving message from renderer: 20.000
-[1598105751.424][SEVERE]: Timed out receiving message from renderer: 20.000
-</system-err>
-  </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="selectContacts" time="69.698">
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="setUp" time="123.755">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.HomePageTest" name="setUp" time="118.685">
-    <failure message="timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=84.0.4147.135)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ABHAY-PC&apos;, ip: &apos;192.168.43.190&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Windows\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:53462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 10ea5e8bc09a3895987ed3162268998d" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
-  (Session info: chrome=84.0.4147.135)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ABHAY-PC&apos;, ip: &apos;192.168.43.190&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Windows\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:53462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 10ea5e8bc09a3895987ed3162268998d
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
-	at com.sun.proxy.$Proxy11.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.FreeCRM.qa.Pages.LoginPage.login(LoginPage.java:39)
-	at com.FreeCRM.qa.TestCases.HomePageTest.setUp(HomePageTest.java:30)
-</failure>
-    <system-out>BeforeNavigateTo: https://www.crmpro.com/index.html&apos;
-AftrNavigateTo: https://www.crmpro.com/index.html&apos;
-Value of the: [[ChromeDriver: chrome on WINDOWS (10ea5e8bc09a3895987ed3162268998d)] -&gt; name: username]before any changes mode
-Element value changed to :[[ChromeDriver: chrome on WINDOWS (10ea5e8bc09a3895987ed3162268998d)] -&gt; name: username]
-Value of the: [[ChromeDriver: chrome on WINDOWS (10ea5e8bc09a3895987ed3162268998d)] -&gt; name: password]before any changes mode
-Element value changed to :[[ChromeDriver: chrome on WINDOWS (10ea5e8bc09a3895987ed3162268998d)] -&gt; name: password]
-</system-out>
-    <system-err>Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 1387
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Aug 22, 2020 7:46:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[1598105799.050][SEVERE]: Timed out receiving message from renderer: 20.000
-[1598105799.068][SEVERE]: Timed out receiving message from renderer: 20.000
-</system-err>
-  </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.HomePageTest" name="verifyUserNameTest" time="118.686">
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="selectContacts" time="123.755">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="setUp" time="118.686">
+  <testcase classname="com.FreeCRM.qa.TestCases.HomePageTest" name="setUp" time="123.755">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="loginPageCRMLogo" time="118.687">
+  <testcase classname="com.FreeCRM.qa.TestCases.HomePageTest" name="verifyUserNameTest" time="123.757">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="setUp" time="118.692">
+  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="setUp" time="123.757">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="selectMultipleContacts" time="118.692">
+  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="loginPageCRMLogo" time="123.757">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.HomePageTest" name="setUp" time="118.692">
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="setUp" time="123.757">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.HomePageTest" name="clickOnContactsLink" time="118.693">
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="selectMultipleContacts" time="123.757">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="setUp" time="118.721">
+  <testcase classname="com.FreeCRM.qa.TestCases.HomePageTest" name="setUp" time="123.757">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="loginTest" time="118.722">
+  <testcase classname="com.FreeCRM.qa.TestCases.HomePageTest" name="clickOnContactsLink" time="123.757">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="setUp" time="139.644">
+  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="setUp" time="123.758">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="createNewContactTest" time="139.644">
+  <testcase classname="com.FreeCRM.qa.TestCases.LoginPageTest" name="loginTest" time="123.758">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="setUp" time="139.647">
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="setUp" time="140.34">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="createNewContactTest" time="139.647">
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="createNewContactTest" time="140.34">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="setUp" time="139.647">
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="setUp" time="140.34">
     <skipped/>
   </testcase>
-  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="createNewContactTest" time="139.647">
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="createNewContactTest" time="140.341">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="setUp" time="140.349">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.FreeCRM.qa.TestCases.ContactsPageTest" name="createNewContactTest" time="140.349">
     <skipped/>
   </testcase>
 </testsuite>

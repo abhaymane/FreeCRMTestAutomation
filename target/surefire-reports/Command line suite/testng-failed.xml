@@ -5,6 +5,7 @@
     <classes>
       <class name="com.FreeCRM.qa.TestCases.HomePageTest">
         <methods>
+          <include name="verifyHomePageTitleTest"/>
           <include name="verifyUserNameTest"/>
           <include name="tearDown"/>
           <include name="clickOnContactsLink"/>
@@ -22,6 +23,7 @@
       </class> <!-- com.FreeCRM.qa.TestCases.LoginPageTest -->
       <class name="com.FreeCRM.qa.TestCases.ContactsPageTest">
         <methods>
+          <include name="verifyContactsLabel"/>
           <include name="createNewContactTest"/>
           <include name="selectContacts"/>
           <include name="setUp"/>

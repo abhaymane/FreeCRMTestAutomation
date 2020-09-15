@@ -5,11 +5,8 @@
     <classes>
       <class name="com.FreeCRM.qa.TestCases.ContactsPageTest">
         <methods>
-          <include name="verifyContactsLabel"/>
           <include name="createNewContactTest"/>
-          <include name="selectContacts"/>
           <include name="setUp"/>
-          <include name="selectMultipleContacts"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.FreeCRM.qa.TestCases.ContactsPageTest -->
